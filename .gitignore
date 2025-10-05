@@ -1,0 +1,20 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+
+# SSH Keys
+ssh-key/
+*.pem
+*.pub
+
+# Ansible cache
+*.retry
+__pycache__/
+*.log
+
+# System files
+.DS_Store
+*.swp
